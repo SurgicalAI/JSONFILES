@@ -1,0 +1,74 @@
+﻿{
+  "Label_Identifier": {
+    "Recording_Id": "1_21.08.13_at_06.14.59_svu-mi5_569.rrec",
+    "Recording_Date": "20210813",
+    "Vehicle_Test_Drive_Id": "Leroy381_M7",
+    "Parking_System_Version": "M7 3.11.0",
+    "Maneuver_Category": "parallel-right"
+  },
+  "Attributes": [
+    {
+      "Recording_Specifics": {
+        "dGPS": true,
+        "Test_Environment": "outside",
+        "Vehicle_Orientation": "forward",
+        "Direction_Of_Maneuver": [
+          "in",
+          "out"
+        ],
+        "Usage_Mode": "in car",
+        "Scope_Base": "null",
+        "Non_Or_Use_Case": "null",
+        "Stroke_Amount_Parking_In": 4,
+        "Speed_During_Scanning_kph": 11.30,
+        "SI_Box_Rotation": 2
+      },
+      "Scenario_Specifics": {
+        "Viewing_Condiction": "clear",
+        "Road_Condition": "good",
+        "Surface_P": "asph",
+        "Surface_R": "asph",
+        "Parking_Space_Limiter_Type": "line",
+        "Road_Bump_Type": "none",
+        "Wheel_Stopper_Type": "singel_beam"
+      },
+      "Parking_Space_Dimension": {
+        "Parking_Space_Length_m": 2.58,
+        "Parking_Space_Width_m": 6.05,
+        "Alpha": 0,
+        "Slot_Shrink_SI_cm": -6,
+        "Slot_Shrink_USEM_cm": 21
+      },
+      "Ghost_Objects": {
+        "Number_Of_Objects": 0,
+        "Location": "outside"
+        
+
+      },
+      "Parking_Space_Delimiters": {
+        "Type_lim_entrance_P": "none",
+        "Type_lim_right_P": "line",
+        "Type_lim_left_P": "line",
+        "Type_lim_P_end": "line",
+        "Obj_Height_Mis_Clas": 0,
+        "Lag_Point": "null",
+        "Lead_Point": "null"
+      },
+      "Success_Criteria_Performance": {
+        "Runtime": 10,
+        "Succ_In": true,
+        "Succ_Out": false,
+        "End_Position_Error": "null",
+        "Curb_Not_Seen_Scanning": "null"
+  
+      },
+      "Special_Recordings": {
+        "First_Pole_Detection":
+        "LSCA", 
+          "Collision": false,
+          "Collision_Object_Type": "null"
+        }
+      }
+    
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "$schema": "./Label_Template-schema-v1.json",
+  "Label_Identifier": {
+    "Recording_Id": "1_21.08.13_at_10.05.10_svu-mi5_569.rrec",
+    "Recording_Date": "2021-08-13",
+    "Vehicle_Test_Drive_Id": "Leroy382_M7",
+    "Parking_System_Version": "M7 3.11.0",
+    "Maneuver_Category": "perpendicular-right"
+  },
+  "Attributes": [
+    {
+      "Recording_Specifics": {
+        "dGPS": true,
+        "Test_Environment": "outside",
+        "Vehicle_Orientation": "backward",
+        "Direction_Of_Maneuver": [
+          
+          
+        ],
+        "Usage_Mode": "in car",
+        "Scope_Base": "unkown",
+        "Non_Or_Use_Case": true,
+        "Stroke_Amount_Parking_In": 7, 
+        "Speed_During_Scanning_kph": 8.57,
+        "SI_Box_Rotation": 6
+      },
+      "Scenario_Specifics": {
+        "Viewing_Condiction": "clear",
+        "Road_Condition": "good",
+        "Surface_P": "asph",
+        "Surface_R": "asph",
+        "Parking_Space_Limiter_Type": "none",
+        "Road_Bump_Type": "none",
+        "Wheel_Stopper_Type": "none"
+      },
+      "Parking_Space_Dimension": {
+        "Parking_Space_Length_m": 5.27,
+               "Parking_Space_Width_m": 3.80,
+        "Alpha": 90,
+        "Slot_Shrink_SI_cm": 49,
+        "Slot_Shrink_USEM_cm": 0 
+      },
+      "Ghost_Objects": {
+        "Number_Of_Objects": 0,
+        "Location": [
+          "none"
+        ]
+      },
+      "Parking_Space_Delimiters": {
+        "Type_lim_entrance_P": "line",
+        "Type_lim_right_P": "none",
+        "Type_lim_left_P": "none",
+        "Type_lim_P_end": "line",
+        "Obj_Height_Mis_Clas": 0,
+        "Lag_Point": 0,
+        "Lead_Point": 0
+      },
+      "Success_Criteria_Performance": {
+        "Runtime": 10,
+        "Succ_In": true,
+        "Succ_Out": true,
+        "End_Position_Error": "null",
+        "Curb_Not_Seen_Scanning": [
+            
+        ]
+      },
+      "specialRecordings": {
+        "First_Pole_Detection_m": 0,
+        "LSCA": {
+          "Collision": false,
+          "Collision_Object_Type": "none"
+        }
+      }
+    }
+  ]
+}
